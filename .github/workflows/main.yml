@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Shankynalla:$HF_TOKEN@huggingface.co/spaces/Shankynalla/Shankynalla/Search_engine_AI main
+        run: git push --force https://Shankynalla:$HF_TOKEN@huggingface.co/spaces/Shankynalla/Search_engine_AI main
